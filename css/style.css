@@ -221,6 +221,11 @@ h3 {
     color: #6e7575;
 }
 
+/* Leaving some space after the end of the section */
+.skills {
+    padding-bottom: 2em;
+}
+
 /* Making the font a little bigger for skill items */
 .skillitems {
     margin-top: 1em !important;
@@ -248,7 +253,8 @@ footer {
 /* *********************************************** */
 /*          Now, let's make it responsive!         */
 /* *********************************************** */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 1200px),
+       handheld and (max-width: 1200px) {
     #sectionHome {
         height: auto;
     }
@@ -260,13 +266,14 @@ footer {
         text-align: center;
     }
     .pic {
-        width: 50vh;
+        width: 50vw;
+        height: auto !important;
     }
     .portfolioImg {
-        width: 33vw;
+        width: 25vw;
     }
     .portfolioTitle {
-        width: 33vw;
+        width: 25vw;
     }
     .paperItem {
         font-size: 0.9em;
@@ -289,9 +296,11 @@ footer {
     }
 }
 
-@media only screen and (max-width: 580px) {
+@media screen and (max-width: 768px),
+       handheld and (max-width: 768px)  {
     .pic {
         width: 90vw;
+        height: auto !important;
     }
     .portfolioImg {
         width: 50vw;

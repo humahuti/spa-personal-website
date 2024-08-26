@@ -14,7 +14,7 @@
   <!-- ########################## -->
   <!-- Horizontal menu at the top -->
   <!-- ########################## -->
-  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Giovanni Wang</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,10 +48,10 @@
   <section id="sectionHome">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-1">
+        <div class="col-xl-6 col-md-1">
           <img class="pic" src="img/GiovanniWang[nobg].png">
         </div>
-        <div class="col-md-6 col-sm-1">
+        <div class="col-xl-6 col-md-1">
           <h1>Giovanni Wang</h1>
           <span class="phrase">{{catchphrase}}</span>
         </div>
@@ -65,7 +65,7 @@
       <h2>Portfolio</h2>
       <div class="portfolio row">
         <!-- Single research portfolio element -->
-        <p class="portfolioItem col-md-4 col-sm-6 col-xs-1 px-2 py-1" v-for="(demo, index) in demos">
+        <p class="portfolioItem col-xl-4 col-md-6 col-sm-12 px-2 py-1" v-for="(demo, index) in demos">
           <a v-bind:href="demo.url" target="_blank">
             <img class="portfolioImg" v-bind:src="demo.img"><br>
             <span class="portfolioTitle">{{demo.name}}</span>
@@ -98,17 +98,17 @@
       <h2>About</h2>
       <div class="about">
         <div class="row">
-          <div class="col-md-6 col-sm-1">
+          <div class="col-xl-6 col-md-1">
             <img class="pic" v-bind:src="bioimg">
           </div>
-          <div class="bio col-md-6 col-sm-1">
+          <div class="bio col-xl-6 col-md-1">
             <h3>About me</h3>
             <span class="phrase">{{autobio}}</span>
           </div>
         
 
           <!-- Work experience -->
-          <div class="work col-md-6 col-sm-1">
+          <div class="work col-xl-6 col-md-1">
             <h3>Work Experience</h3>
             <div class="workitems">
               <!-- Single work experience element -->
@@ -121,7 +121,7 @@
           </div>
 
           <!-- Degrees -->
-          <div class="education col-md-6 col-sm-1">
+          <div class="education col-xl-6 col-md-1">
             <h3>Academic Degrees</h3>
             <div class="eduitems">
               <!-- Single education element -->
@@ -134,7 +134,7 @@
           </div>
 
           <!-- Skills -->
-          <div class="skills col-md-6 col-sm-1">
+          <div class="skills col-xl-6 col-md-1">
             <h3>Skills</h3>
             <div class="skillitems">
               <!-- Single skill element -->
