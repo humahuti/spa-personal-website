@@ -1,0 +1,129 @@
+{
+    "name" : "Giovanni Wang",
+    "phrase" : "Yesterday's belief in science, fueled by smart implementation and careful testing, brings us future technologies today.",
+    "portfolio" : [
+        {
+            "name" : "Automatic algebraic computation of predefined integers",
+            "img" : "img/eg1.png",
+            "url" : "https://colab.research.google.com/drive/1Hp3I1LyEVInuw7FBv_mTXabRgS1nHW4c#scrollTo=Automatic_algebraic_computation_of_predefined_integers"
+        },
+        {
+            "name" : "Irrefutable evaluation of logical propositional formulas",
+            "img" : "img/eg2.png",
+            "url" : "https://colab.research.google.com/drive/1Hp3I1LyEVInuw7FBv_mTXabRgS1nHW4c#scrollTo=Irrefutable_evaluation_of_logical_propositional_formulas"
+        },
+        {
+            "name" : "Exact duplication of structures of modern standardized glyphs",
+            "img" : "img/eg3.png",
+            "url" : "https://colab.research.google.com/drive/1Hp3I1LyEVInuw7FBv_mTXabRgS1nHW4c#scrollTo=Exact_duplication_of_structures_of_modern_standardized_glyphs"
+        },
+        {
+            "name" : "Algorithmic translation of common symbols into numerical representations",
+            "img" : "img/eg4.png",
+            "url" : "https://colab.research.google.com/drive/1Hp3I1LyEVInuw7FBv_mTXabRgS1nHW4c#scrollTo=Algorithmic_translation_of_common_symbols_into_numerical_representations"
+        },
+        {
+            "name" : "[Advanced] Controlled cyclic calculation based on repetitively recorded information",
+            "img" : "img/eg5.png",
+            "url" : "https://colab.research.google.com/drive/1Hp3I1LyEVInuw7FBv_mTXabRgS1nHW4c#scrollTo=_Advanced_Controlled_cyclic_calculation_based_on_repetitively_recorded_information"
+        },
+        {
+            "name" : "[Advanced] Visual inquiry of particular knowledge by a programmed electronic engine",
+            "img" : "img/eg6.png",
+            "url" : "https://colab.research.google.com/drive/1Hp3I1LyEVInuw7FBv_mTXabRgS1nHW4c#scrollTo=_Advanced_Visual_inquiry_of_particular_knowledge_by_a_programmed_electronic_engine"
+        }
+    ],
+    "research" : [
+        {
+            "name" : "Mr. Fusion Flux: an alternative to composting, and planet terraforming",
+            "journal" : "Journal of Martian Anthropology and Lifestyle",
+            "issue" : "84 (11)",
+            "year" : 2478,
+            "doi" : "doi:40.1618/jmaral.841126"
+        },        
+        {
+            "name" : "Superluminic communications harnessing entangled kyber-resonance",
+            "journal" : "Applied Stellar Materials",
+            "issue" : "23 (AA)",
+            "year" : 2477,
+            "doi" : "doi:40.1138/AA-23"
+        },
+        {
+            "name" : "Extreme sports prosthetics: a reality through vibranium-copper alloys",
+            "journal" : "Journal of Xenomaterials in Sports Equipment",
+            "issue" : "616",
+            "year" : 2476,
+            "doi" : "doi:30.3141/JXS0616.573v3r093r5"
+        },
+        {
+            "name" : "Non-interfering channels for alien encounters through Stargate",
+            "journal" : "Terrestrial Journal of Materials and Engineering",
+            "issue" : "6 (1)",
+            "year" : 2475,
+            "doi" : "doi:40.2718/TJME0006.1.g04u1d"
+        },
+        {
+            "name" : "Lifelong portable electronics powered by symmetrical kryptonian crystals",
+            "journal" : "Terrestrial Journal of Materials and Engineering",
+            "issue" : "3 (7)",
+            "year" : 2475,
+            "doi" : "doi:40.2718/TJME0003.7.glfsbwwamm"
+        },
+        {
+            "name" : "No more stress: effective counseling by general AIs at your local holodeck",
+            "journal" : "Journal of Martian Anthropology and Lifestyle",
+            "issue" : "74 (1)",
+            "year" : 2472,
+            "doi" : "doi:40.1618/jmaral.74017-9"
+        }
+    ],
+    "about" : {
+        "bio" : "I'm just a simple man making my way through the galaxy.",
+        "img" : "img/inTheField.jpg",
+        "cv" : {
+            "work" : [
+                {
+                    "entity" : "United Federation of Planets",
+                    "position" : "Senior Xenomaterials Analyst",
+                    "start" : "2474.01.01",
+                    "end" : ""
+                },
+                {
+                    "entity" : "Reb. All's' Hyperdrives",
+                    "position" : "Assistant Mechanic",
+                    "start" : "2463.10.01",
+                    "end" : "2466.03.01"
+                },
+                {
+                    "entity" : "Fhloston Paradise Resort",
+                    "position" : "Supply Delivery Pilot",
+                    "start" : "2460.06.15",
+                    "end" : "2463.04.30"
+                }
+            ],
+            "education" : [
+                {
+                    "degree" : "Doctor of Philosophy in Xenomaterial Science",
+                    "institution" : "Asgardian Institute of Science and Engineering",
+                    "year" : 2472
+                },
+                {
+                    "degree" : "Inorganic Chemistry - Master of Science (M.Sc.)",
+                    "institution" : "Royal University of Naboo",
+                    "year" : 2468
+                },
+                {
+                    "degree" : "Bachelor in Science: Physics",
+                    "institution" : "University of Atlantis",
+                    "year" : 2466
+                }
+            ],
+            "skills" : [
+                "Playing the Viola",
+                "Web Design",
+                "(Gorilla) Sign Language",
+                "Competitive Ice Skating"
+            ]
+        }
+    }
+}
