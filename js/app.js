@@ -19,11 +19,14 @@ const app = createApp({
             papers: [],
             works: [],
             edus: [],
-            skills: []
+            skills: [],
+            year: 2478
         }
     },
     methods: {
-        
+        getYear() {
+            return new Date().getFullYear();
+        }
     },
     async created() {
         var that = this;
@@ -36,9 +39,8 @@ const app = createApp({
         this.works = myData.about.cv.work;
         this.edus = myData.about.cv.education;
         this.skills = myData.about.cv.skills;
-    },
-    mounted() {
-	}
+        this.year = this.getYear();
+    }
 })
 
 app.mount('#app');
