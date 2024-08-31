@@ -49,7 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-6 col-md-1">
-          <img class="pic" src="img/GiovanniWang[nobg].png">
+          <img class="pic anipic" src="img/GiovanniWang[nobg].png">
         </div>
         <div class="col-xl-6 col-md-1">
           <h1>Giovanni Wang</h1>
@@ -93,13 +93,13 @@
   </section>
 
   <!-- Fourth section: personal information -->
-  <section id="sectionAbout">
+  <section id="sectionAbout" ref="fadeInPic">
     <div class="container">
       <h2>About</h2>
       <div class="about">
         <div class="row">
           <div class="col-xl-6 col-md-1">
-            <img class="pic" v-bind:src="bioimg">
+            <img class="pic" v-show="bioPic" :class="{anipic : bioPic}" v-bind:src="bioimg">
           </div>
           <div class="bio col-xl-6 col-md-1">
             <h3>About me</h3>

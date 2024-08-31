@@ -2,6 +2,16 @@
 /* Always check the bottom and adjust accordingly! */
 /* *********************************************** */
 
+/* **************** Animations!!! **************** */
+@keyframes smoothlyUp {
+    0% { transform: translateY(10.0000%); opacity: 0.0; }
+    20% { transform: translateY(3.6788%); opacity: 0.2; }
+    40% { transform: translateY(0.4979%); opacity: 0.4; }
+    60% { transform: translateY(0.0674%); opacity: 0.6; }
+    80% { transform: translateY(0.0091%); opacity: 0.8; }
+    100% { transform: translateY(0.0012%); opacity: 1.0; }
+}
+
 /* Make sure to take into account the navbar */
 :target {
     scroll-margin-top: 56px;
@@ -34,6 +44,10 @@ section {
 .pic {
     height: 45vh;
     object-fit: contain;
+}
+
+.anipic {
+    animation: 2.5s ease-out 0s 1 smoothlyUp;
 }
 
 /* The first title */
@@ -84,10 +98,19 @@ h2 {
     text-align: center;
 }
 
+.portfolioItem:hover {
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
 /* Adjust every image accordingly (and leave space) */
 .portfolioImg {
     width: 16vw;
     margin-top: 1em;
+    opacity: 0.8;
+}
+
+.portfolioItem:hover .portfolioImg {
+    opacity: 1.0;
 }
 
 /* Adjust every item's text in the box */
@@ -101,8 +124,12 @@ h2 {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
-    color: #000000;
+    color: #404040;
     margin-bottom: 1em;
+}
+
+.portfolioItem:hover .portfolioTitle {
+    color: #000000;
 }
 
 /* =============== Research section =============== */

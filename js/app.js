@@ -20,7 +20,8 @@ const app = createApp({
             works: [],
             edus: [],
             skills: [],
-            year: 2478
+            year: 2478,
+            bioPic: false
         }
     },
     methods: {
@@ -40,6 +41,21 @@ const app = createApp({
         this.edus = myData.about.cv.education;
         this.skills = myData.about.cv.skills;
         this.year = this.getYear();
+    },
+    mounted() {
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.3,
+        };
+        const observer = new IntersectionObserver(([entry]) => {	 
+            if (entry && entry.isIntersecting) {
+                if (entry.target.id === "sectionAbout") {
+                    this.bioPic = true;
+                }
+            }
+        }, options);
+        observer.observe(this.$refs.fadeInPic);
     }
 })
 
