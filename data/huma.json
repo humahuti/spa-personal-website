@@ -1,0 +1,58 @@
+{
+    "name" : "Humahuti Dihingia",
+    "phrase" : " \"Nothing in life is to be feared, it is only to be understood.\" \n\n ~ Marie Skłodowska-Curie",
+    "portfolio" : [
+        {
+            "name" : "Study of Intermolecular Interaction in Variational Approach",
+            "img" : "img/port_1.jpg",
+            "url" : ""
+        },
+
+        {
+            "name" : "Method Development and integrating into Quantum Chemistry software",
+            "img" : "img/port_2.jpg",
+            "url" : ""
+        },
+
+        {
+            "name" : "Visualisation Tools",
+            "img" : "img/port_3.jpg",
+            "url" : ""
+        }
+      
+    ],
+    "research" : [
+
+        ],
+    "about" : {
+        "bio" : "I'm driven by curiosity and passion to understand the language of intermolecular interactions, at the intersection of mathematics, physics, and coding.",
+        "img" : "img/humahuti_about.jpg",
+        "cv" : {
+            "work" : [
+                
+                {
+                    "entity" : "Indian Institute of Science Education and Research, Bhopal",
+                    "position" : "Project Research Student",
+                    "start" : "2021",
+                    "end" : "2023"
+                }
+            ],
+            "education" : [
+                
+                {
+                    "degree" : "Physics - Master of Science (M.Sc.)",
+                    "institution" : "University of Delhi, India",
+                    "year" : 2020
+                },
+                {
+                    "degree" : "Physics - Bachelor in Science (B.Sc.)",
+                    "institution" : "Cotton University, India",
+                    "year" : 2018
+                }
+            ],
+            "skills" : [
+                "Creative Writing"
+            ]
+        }
+    }
+}

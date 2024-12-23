@@ -31,7 +31,7 @@ const app = createApp({
     },
     async created() {
         var that = this;
-        const myData = await fetchData('data/gw.json');
+        const myData = await fetchData('data/huma.json');
         this.catchphrase = myData.phrase;
         this.demos = myData.portfolio;
         this.papers = myData.research;
