@@ -29,6 +29,12 @@
         "img" : "img/humahuti_about.jpg",
         "cv" : {
             "work" : [
+                {
+                    "entity" : "Nicolaus Copernicus University in Toruń",
+                    "position" : "MSCA Doctoral Candidate",
+                    "start" : "2023",
+                    "end" : "Present"
+                },
                 
                 {
                     "entity" : "Indian Institute of Science Education and Research, Bhopal",
